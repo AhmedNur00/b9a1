@@ -147,3 +147,56 @@
     color: #FFF;
     font-size: 20px;  
 }
+/* Newsletter section  */
+
+.newsletter-section {
+    background-color: lavenderblush;
+    width: 1320px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.subscribe-title {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe-text {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 40px;
+}
+
+form > button {
+    padding: 15px;
+    margin: 0px;
+    border: none;
+    background-color: #F00;
+    color: #FFF;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+input {
+    padding: 15px;
+    margin: 0px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
