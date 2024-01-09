@@ -147,6 +147,42 @@
     color: #FFF;
     font-size: 20px;  
 }
+
+/* portfolio section  */
+
+.portfolio {
+    width: 1320px;
+    
+}
+
+.portfolio-text {
+    margin-left: 300px;
+}
+.portfolio-text > h2 {
+    color: #F00;
+}
+.portfolio-text > h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-images {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+   
+    
+}
+
+
+
+
+
+
 /* Newsletter section  */
 
 .newsletter-section {
