@@ -266,3 +266,7 @@ hr {
     justify-content: space-between;
     margin: 50px;
 }
+i {
+    color: #FFF;
+    margin-right: 2px;
+}
